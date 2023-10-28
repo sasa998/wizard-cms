@@ -1,0 +1,2978 @@
+{
+  "version": 3,
+  "root": {
+    "survey-registration": {
+      "data": {
+        "value": "5fc7554fca9f353be466829a"
+      }
+    },
+    "GoIdle-quiz-de": {
+      "data": {
+        "value": "./static/buttons/goIdle/ZumQuiz_DE.png"
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.goIdle(false)"
+        }
+      ]
+    },
+    "GoIdle-quiz-en": {
+      "data": {
+        "value": "./static/buttons/goIdle/ZumQuiz_EN.png"
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.goIdle(false)"
+        }
+      ]
+    },
+    "ToMain-de": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','destination': 'default-de'})"
+        }
+      ]
+    },
+    "ToMain-en": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','destination': 'default-de'})"
+        }
+      ]
+    },
+    "START-de": {
+      "data": {
+        "value": "./static/resources/MNF_Startscreen_Button_DE_2021-09-09_RZ.png"
+      }
+    },
+    "START-en": {
+      "data": {
+        "value": "./static/resources/MNF_Startscreen_Button_EN_2021-09-09_RZ.png"
+      }
+    },
+    "START-REG-click": {
+      "actionList": [
+        {
+          "action": "closeOverlay"
+        },
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','destination': 'default'})"
+        }
+      ]
+    },
+    "START-click": {
+      "actionList": [
+        {
+          "action": "closeOverlay"
+        },
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','destination': 'default-de'})"
+        }
+      ]
+    },
+    "GoIdle": {
+      "data": {
+        "value": "./static/theme/ZumHauptmenu_Button_2021-08-05_DE.png"
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.goIdle(false)"
+        }
+      ]
+    },
+    "de-default": {
+      "data": {
+        "value": "DE"
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.switchToGerman(source)"
+        }
+      ]
+    },
+    "en-default": {
+      "data": {
+        "value": "EN"
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.switchToEnglish(source)"
+        }
+      ]
+    },
+    "main-menu-de": {
+      "data": {
+        "value": "./static/resources/Hauptmenu_RZZW_DE.png"
+      }
+    },
+    "main-menu-en": {
+      "data": {
+        "value": "./static/resources/Hauptmenu_RZZW_DE.png"
+      }
+    },
+    "MenuCircle1": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','destination': 'who-are-we-de'})"
+        }
+      ]
+    },
+    "MenuCircle2": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','destination': 'research-at-mnf-de'})"
+        }
+      ]
+    },
+    "MenuCircle3": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','destination': 'study-at-mnf-de'})"
+        }
+      ]
+    },
+    "MenuCircle4": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','destination': 'more-at-mnf-de'})"
+        }
+      ]
+    },
+    "who-are-we-de-background-de": {
+      "data": {
+        "value": "./static/resources/Menu_RZZW_1_DE.png"
+      }
+    },
+    "who-are-we-de-background-en": {
+      "data": {
+        "value": "./static/resources/Menu_RZZW_1_DE.png"
+      }
+    },
+    "who-are-we-de-titel-de": {
+      "data": {
+        "value": "WER SIND WIR?",
+        "footer": "Tippe auf die Icons, um mehr über uns zu erfahren"
+      }
+    },
+    "who-are-we-de-titel-en": {
+      "data": {
+        "value": "Who are we?",
+        "footer": "Tap on the icons to learn more about us"
+      }
+    },
+    "who-are-we-click-1-de": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'waw-faculty-de'})"
+        }
+      ]
+    },
+    "who-are-we-click-2-de": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'waw-equality-absolute-de'})"
+        }
+      ]
+    },
+    "who-are-we-click-3-de": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'waw-numbers-de'})"
+        }
+      ]
+    },
+    "who-are-we-click-4-de": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'waw-sustainability-de'})"
+        }
+      ]
+    },
+    "who-are-we-click-5-de": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'waw-mission-de'})"
+        }
+      ]
+    },
+    "ToMenu-waw-de": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','destination': 'who-are-we-de'})"
+        },
+        {
+          "action": "closeOverlay"
+        }
+      ]
+    },
+    "ToMenu-waw-en": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','destination': 'who-are-we-de'})"
+        },
+        {
+          "action": "closeOverlay"
+        }
+      ]
+    },
+    "ToMenu-mission": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'waw-mission-de'})"
+        }
+      ]
+    },
+    "ToMenu-mam": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'mam-nature-de'})"
+        }
+      ]
+    },
+    "ToMenu-sam-1": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','destination': 'study-at-mnf-de'})"
+        },
+        {
+          "action": "closeOverlay"
+        }
+      ]
+    },
+    "ToMenu-sam-2": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','destination': 'study-at-mnf-2-de'})"
+        },
+        {
+          "action": "closeOverlay"
+        }
+      ]
+    },
+    "ToMain-mam-de": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "closeOverlay"
+        }
+      ]
+    },
+    "content-faculty-waw-de": {
+      "data": {
+        "value": "./static/resources/SiebenFakultaeten_RZZW_DE.png"
+      }
+    },
+    "content-faculty-waw-en": {
+      "data": {
+        "value": "./static/resources/SiebenFakultaeten_RZZW_DE.png"
+      }
+    },
+    "waw-faculty-title-en": {
+      "data": {
+        "value": "FAKULTÄTEN DER MNF",
+        "footer": "Tippe auf die mathematisch naturwissenschaftliche Fakultät <br> für mehr Informationen zu den Instituten"
+      }
+    },
+    "waw-faculty-title-de": {
+      "data": {
+        "value": "FAKULTÄTEN DER MNF",
+        "footer": "Tippe auf die mathematisch naturwissenschaftliche Fakultät <br> für mehr Informationen zu den Instituten"
+      }
+    },
+    "waw-faculty-click-1": {
+      "data": {},
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true, 'destination': 'waw-faculty-map-de'})"
+        }
+      ]
+    },
+    "waw-faculty-titel-de": {
+      "data": {
+        "value": "DIE SIEBEN FAKULTÄTEN DER UZH",
+        "footer": "Tippe auf den MNF-Button, um mehr über unsere Institute zu erfahren"
+      }
+    },
+    "waw-faculty-titel-en": {
+      "data": {
+        "value": "Wo in Zürich an der Welt geforscht wir",
+        "footer": "Tippe auf die bunten Pins, um mehr über die einzelnen Standorte zu erfahren"
+      }
+    },
+    "waw-faculty-map-titel-de": {
+      "data": {
+        "value": "<div>13 + 8 = DIE INSTITUTE DER MNF</div>",
+        "footer": "Tippe auf die bunten Pins in der obersten Zeile, um mehr zu erfahren"
+      }
+    },
+    "waw-faculty-map-titel-en": {
+      "data": {
+        "value": "13 + 8 + 3 = DIE INSTITUTE DER MNF",
+        "footer": "Tap on the colourful pins to find out more about the individual locations"
+      }
+    },
+    "content-faculty-map-waw-de": {
+      "data": {
+        "value": "./static/resources/InstituteDerMNF_RZZW_DE_01.png"
+      }
+    },
+    "content-faculty-map-waw-en": {
+      "data": {
+        "value": "./static/resources/InstituteDerMNF_RZZW_DE_01.png"
+      }
+    },
+    "content-faculty-map-waw-1-de": {
+      "data": {
+        "value": "./static/resources/InstituteDerMNF_RZZW_DE_02.png"
+      }
+    },
+    "content-faculty-map-waw-2-de": {
+      "data": {
+        "value": "./static/resources/InstituteDerMNF_RZZW_DE_03.png"
+      }
+    },
+    "content-faculty-map-waw-3-de": {
+      "data": {
+        "value": "./static/resources/InstituteDerMNF_RZZW_DE_04.png"
+      }
+    },
+    "content-faculty-map-waw-1-en": {
+      "data": {
+        "value": "./static/resources/InstituteDerMNF_RZZW_DE_02.png"
+      }
+    },
+    "content-faculty-map-waw-2-en": {
+      "data": {
+        "value": "./static/resources/InstituteDerMNF_RZZW_DE_03.png"
+      }
+    },
+    "content-faculty-map-waw-3-en": {
+      "data": {
+        "value": "./static/resources/InstituteDerMNF_RZZW_DE_04.png"
+      }
+    },
+    "content-faculty-map-click-1": {
+      "data": {},
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true, 'destination': 'waw-faculty-map-1-de'})"
+        }
+      ]
+    },
+    "content-faculty-map-click-2": {
+      "data": {},
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true, 'destination': 'waw-faculty-map-2-de'})"
+        }
+      ]
+    },
+    "content-faculty-map-click-3": {
+      "data": {},
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true, 'destination': 'waw-faculty-map-3-de'})"
+        }
+      ]
+    },
+    "content-faculty-map-detail-waw-de": {
+      "data": {
+        "value": "./static/WhoAreWe/content-faculty-map-detail-waw_DE.png"
+      }
+    },
+    "content-faculty-map-detail-waw-en": {
+      "data": {
+        "value": "./static/WhoAreWe/content-faculty-map-detail-waw_EN.png"
+      }
+    },
+    "waw-faculty-map-detail-titel-en": {
+      "data": {
+        "value": "Where in Zurich researchers are investigating the world",
+        "footer": "Tap on the colourful pins to find out more about the individual locations"
+      }
+    },
+    "waw-faculty-map-detail-titel-de": {
+      "data": {
+        "value": "Wo in Zürich an der Welt geforscht wir",
+        "footer": "Tippe auf die bunten Pins, um mehr über die einzelnen Standorte zu erfahren"
+      }
+    },
+    "waw-numbers-close": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "closeOverlay"
+        }
+      ]
+    },
+    "content-numbers-waw-de": {
+      "data": {
+        "value": "./static/resources/Prozente_MNFinZahlen_DE_1ohne.png"
+      }
+    },
+    "waw-dropdown-1-de": {
+      "data": {
+        "data": ""
+      }
+    },
+    "content-numbers-waw-en": {
+      "data": {
+        "value": "./static/resources/Prozente_MNFinZahlen_DE_1ohne.png"
+      }
+    },
+    "content-numbers-absolute-waw-de": {
+      "data": {
+        "value": "./static/resources/Zahlen_MNFinZahlen_DE_1ohne.png"
+      }
+    },
+    "content-numbers-absolute-waw-en": {
+      "data": {
+        "value": "./static/resources/Zahlen_MNFinZahlen_DE_1ohne.png"
+      }
+    },
+    "waw-numbers-1-relative-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'waw-numbers-de'})"
+        }
+      ]
+    },
+    "waw-numbers-1-absolute-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'waw-numbers-absolute-de'})"
+        }
+      ]
+    },
+    "waw-numbers-1-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'waw-numbers-2-de'})"
+        }
+      ]
+    },
+    "content-numbers-2-waw-de": {
+      "data": {
+        "value": "./static/resources/Balkendiagramm_MNFinZahlen_DE.png"
+      }
+    },
+    "content-numbers-2-waw-en": {
+      "data": {
+        "value": "./static/resources/Balkendiagramm_MNFinZahlen_DE.png"
+      }
+    },
+    "waw-numbers-2-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'waw-numbers-3-de'})"
+        }
+      ]
+    },
+    "content-numbers-3-waw-de": {
+      "data": {
+        "value": "./static/resources/Prozente_MNFinZahlen_DE_2.png"
+      }
+    },
+    "content-numbers-3-waw-en": {
+      "data": {
+        "value": "./static/resources/Prozente_MNFinZahlen_DE_2.png"
+      }
+    },
+    "content-numbers-3-absolute-waw-de": {
+      "data": {
+        "value": "./static/resources/Zahlen_MNFinZahlen_DE_2.png"
+      }
+    },
+    "content-numbers-3-absolute-waw-en": {
+      "data": {
+        "value": "./static/resources/Zahlen_MNFinZahlen_DE_2.png"
+      }
+    },
+    "waw-numbers-3-relative-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'waw-numbers-3-de'})"
+        }
+      ]
+    },
+    "waw-numbers-3-absolute-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'waw-numbers-3-absolute-de'})"
+        }
+      ]
+    },
+    "waw-numbers-3-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'waw-numbers-4-de'})"
+        }
+      ]
+    },
+    "content-numbers-4-waw-de": {
+      "data": {
+        "value": "./static/resources/Prozente_MNFinZahlen_DE_3ohne.png"
+      }
+    },
+    "content-numbers-4-waw-en": {
+      "data": {
+        "value": "./static/resources/Prozente_MNFinZahlen_DE_3ohne.png"
+      }
+    },
+    "content-numbers-4-absolute-waw-de": {
+      "data": {
+        "value": "./static/resources/Zahlen_MNFinZahlen_DE_3ohne.png"
+      }
+    },
+    "content-numbers-4-absolute-waw-en": {
+      "data": {
+        "value": "./static/resources/Zahlen_MNFinZahlen_DE_3ohne.png"
+      }
+    },
+    "waw-numbers-4-relative-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'waw-numbers-4-de'})"
+        }
+      ]
+    },
+    "waw-numbers-4-absolute-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'waw-numbers-4-absolute-de'})"
+        }
+      ]
+    },
+    "waw-numbers-4-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'waw-numbers-5-de'})"
+        }
+      ]
+    },
+    "content-numbers-5-waw-de": {
+      "data": {
+        "value": "./static/resources/Prozente_MNFinZahlen_DE_4.png"
+      }
+    },
+    "content-numbers-5-waw-en": {
+      "data": {
+        "value": "./static/resources/Prozente_MNFinZahlen_DE_4.png"
+      }
+    },
+    "content-numbers-5-absolute-waw-de": {
+      "data": {
+        "value": "./static/resources/Zahlen_MNFinZahlen_DE_4.png"
+      }
+    },
+    "content-numbers-5-absolute-waw-en": {
+      "data": {
+        "value": "./static/resources/Zahlen_MNFinZahlen_DE_4.png"
+      }
+    },
+    "waw-numbers-5-relative-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'waw-numbers-5-de'})"
+        }
+      ]
+    },
+    "waw-numbers-5-absolute-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'waw-numbers-5-absolute-de'})"
+        }
+      ]
+    },
+    "content-equality-waw-de": {
+      "data": {
+        "value": "./static/resources/GleichstellungFakultaet_E_RZZW_2_DE.png"
+      }
+    },
+    "content-equality-waw-en": {
+      "data": {
+        "value": "./static/resources/GleichstellungFakultaet_E_RZZW_2_DE.png"
+      }
+    },
+    "content-equality-absolute-waw-de": {
+      "data": {
+        "value": "./static/resources/GleichstellungFakultaet_E_RZZW_1_DE.png"
+      }
+    },
+    "content-equality-absolute-waw-en": {
+      "data": {
+        "value": "./static/resources/GleichstellungFakultaet_E_RZZW_1_DE.png"
+      }
+    },
+    "waw-equality-relative-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'waw-equality-de'})"
+        }
+      ]
+    },
+    "waw-equality-absolute-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'waw-equality-absolute-de'})"
+        }
+      ]
+    },
+    "waw-equality-1-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'waw-equality-2-de'})"
+        }
+      ]
+    },
+    "content-equality-2-waw-de": {
+      "data": {
+        "value": "./static/resources/GleichstellungFakultaet_E_RZZW_3_DE.png"
+      }
+    },
+    "content-equality-2-waw-en": {
+      "data": {
+        "value": "./static/resources/GleichstellungFakultaet_E_RZZW_3_DE.png"
+      }
+    },
+    "waw-equality-2-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'waw-equality-3-de'})"
+        }
+      ]
+    },
+    "content-sustainability-1-waw-de": {
+      "data": {
+        "value": "./static/resources/Nachhaltigkeitskomitee_RZZW_DE.png"
+      }
+    },
+    "content-sustainability-1-waw-en": {
+      "data": {
+        "value": "./static/resources/Nachhaltigkeitskomitee_RZZW_EN.png"
+      }
+    },
+    "waw-sustainability-1-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'waw-sustainability-1-de'})"
+        }
+      ]
+    },
+    "content-mission-1-waw-de": {
+      "data": {
+        "value": "./static/resources/MissionStatement_RZZW_DE_1.png"
+      }
+    },
+    "content-mission-1-waw-en": {
+      "data": {
+        "value": "./static/resources/MissionStatement_RZZW_DE_1.png"
+      }
+    },
+    "content-mission-2-waw-de": {
+      "data": {
+        "value": "./static/resources/MissionStatement_RZZW_DE_2.png"
+      }
+    },
+    "content-mission-2-waw-en": {
+      "data": {
+        "value": "./static/resources/MissionStatement_RZZW_EN_2.png"
+      }
+    },
+    "content-mission-3-waw-de": {
+      "data": {
+        "value": "./static/resources/MissionStatement_RZZW_DE_3.png"
+      }
+    },
+    "content-mission-3-waw-en": {
+      "data": {
+        "value": "./static/resources/MissionStatement_RZZW_EN_3.png"
+      }
+    },
+    "content-mission-4-waw-de": {
+      "data": {
+        "value": "./static/resources/MissionStatement_RZZW_DE_4.png"
+      }
+    },
+    "content-mission-4-waw-en": {
+      "data": {
+        "value": "./static/resources/MissionStatement_RZZW_EN_4.png"
+      }
+    },
+    "content-mission-5-waw-de": {
+      "data": {
+        "value": "./static/resources/MissionStatement_RZZW_DE_5.png"
+      }
+    },
+    "content-mission-5-waw-en": {
+      "data": {
+        "value": "./static/resources/MissionStatement_RZZW_EN_5.png"
+      }
+    },
+    "content-mission-6-waw-de": {
+      "data": {
+        "value": "./static/resources/MissionStatement_RZZW_DE_6.png"
+      }
+    },
+    "content-mission-6-waw-en": {
+      "data": {
+        "value": "./static/resources/MissionStatement_RZZW_EN_6.png"
+      }
+    },
+    "waw-mission-1-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'waw-mission-1-de'})"
+        }
+      ]
+    },
+    "waw-mission-2-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'waw-mission-2-de'})"
+        }
+      ]
+    },
+    "waw-mission-3-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'waw-mission-3-de'})"
+        }
+      ]
+    },
+    "waw-mission-4-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'waw-mission-4-de'})"
+        }
+      ]
+    },
+    "waw-mission-5-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'waw-mission-5-de'})"
+        }
+      ]
+    },
+    "research-at-mnf-background-de": {
+      "data": {
+        "value": "./static/resources/Menu_RZZW_2_DE.png"
+      }
+    },
+    "research-at-mnf-background-en": {
+      "data": {
+        "value": "./static/resources/Menu_RZZW_2_DE.png"
+      }
+    },
+    "research-at-mnf-titel-de": {
+      "data": {
+        "value": "FORSCHUNG AN DER MNF",
+        "footer": "Tippe auf die Icons, um mehr zu erfahren"
+      }
+    },
+    "research-at-mnf-titel-en": {
+      "data": {
+        "value": "Research at MNF",
+        "footer": "Tap on the icons to learn more"
+      }
+    },
+    "ram-1-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'ram-local-de'})"
+        }
+      ]
+    },
+    "ram-2-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'ram-world-de'})"
+        }
+      ]
+    },
+    "content-local-ram-de": {
+      "data": {
+        "value": "./static/resources/Forschungsstandorte_Zuerich_RZZW_DE.png"
+      }
+    },
+    "content-local-ram-en": {
+      "data": {
+        "value": "./static/resources/Forschungsstandorte_Zuerich_RZZW_EN.png"
+      }
+    },
+    "ram-local-titel-de": {
+      "data": {
+        "value": "WO IN ZÜRICH AN DER WELT GEFORSCHT WIRD",
+        "footer": "Tippe auf die bunten Pins, um mehr über die einzelnen Standorte zu erfahren"
+      }
+    },
+    "ram-local-1-titel-de": {
+      "data": {
+        "value": "WO IN ZÜRICH AN DER WELT GEFORSCHT WIRD"
+      }
+    },
+    "mam-nature-1-titel-de": {
+      "data": {
+        "value": "NATUR UND WISSEN ERLEBEN – MITTEN IN ZÜRICH"
+      }
+    },
+    "ram-local-titel-en": {
+      "data": {
+        "value": "",
+        "footer": ""
+      }
+    },
+    "ram-local-1-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'ram-local-1-de'})"
+        }
+      ]
+    },
+    "ram-local-2-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'ram-local-2-de'})"
+        }
+      ]
+    },
+    "ram-local-3-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'ram-local-3-de'})"
+        }
+      ]
+    },
+    "ram-local-4-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'ram-local-4-de'})"
+        }
+      ]
+    },
+    "content-world-ram-de": {
+      "data": {
+        "value": "./static/resources/GlobusVerteilt_RZZW_DE.png"
+      }
+    },
+    "content-world-ram-en": {
+      "data": {
+        "value": "./static/resources/GlobusVerteilt_RZZW_EN.png"
+      }
+    },
+    "ram-world-titel-de": {
+      "data": {
+        "value": "ÜBER DEN GLOBUS VERTEILT:<br/>FORSCHUNGSSTANDORTE DER MNF WELTWEIT",
+        "footer": "Tippe auf die blauen Pins, um mehr über die Standorte zu erfahren"
+      }
+    },
+    "ram-world-1-titel-de": {
+      "data": {
+        "value": "ÜBER DEN GLOBUS VERTEILT:<br/>FORSCHUNGSSTANDORTE DER MNF WELTWEIT"
+      }
+    },
+    "ram-world-titel-en": {
+      "data": {
+        "value": "",
+        "footer": ""
+      }
+    },
+    "content-ram-local-1-de": {
+      "data": {
+        "value": "./static/popups/Background-Overlay.png"
+      }
+    },
+    "content-sustainability-1-de": {
+      "data": {
+        "value": ""
+      }
+    },
+    "sustainability-1-titel-de": {
+      "data": {
+        "value": "NACHHALTIGKEIT AN DER MNF:<br/> GESELLSCHAFT, UMWELT, WIRTSCHAFT",
+        "footer": "Tippe auf die Buttons, um mehr über die Nachhaltigkeitsprojekte zu erfahren"
+      }
+    },
+    "waw-sustainability-titel-de": {
+      "data": {
+        "value": "DAS NACHHALTIGKEITSKOMITEE DER MNF",
+        "footer": "Tippe auf den Button, um Beispiele für MNF-Nachhaltigkeitsprojekte kennenzulernen"
+      }
+    },
+    "waw-equality-titel-de": {
+      "data": {
+        "value": "GLEICHSTELLUNG IN DER FAKULTÄT:<br/>EIN BEISPIEL DAS MUT MACHT"
+      }
+    },
+    "waw-mission-titel-de": {
+      "data": {
+        "value": "<div>UNSER LEITBILD:</div><div>UNSERE HALTUNG UND UNSERE ZIELE</div>",
+        "footer": "Tippe auf das (i), um mehr zu erfahren"
+      }
+    },
+    "waw-numbers-titel-de": {
+      "data": {
+        "value": "FORSCHUNG AN DER MNF",
+        "footer": "Tippe auf die Icons, um mehr zu erfahren"
+      }
+    },
+    "ram-local-1-text": {
+      "data": {
+        "value": "<h1>Forschen im Grünen</h1><p>Mitten im naturnahen Irchelpark befindet sich der Hauptsitz der MNF: Hier befinden sich die meisten MNF-Institute, das Dekanat und das Studiendekanat. Zudem beherbergt der Irchel Teile der Medizinischen Fakultät, sowie das Staatsarchiv des Kantons Zürich und Institute der ETHZ. Die ersten Gebäude wurden 1979 eröffnet und die Infrastruktur wird seither laufend auf den neusten Stand der Technik gebracht und erweitert. In der Irchelbar gibt es den wohl besten Kaffee der MNF und die Sportinfrastruktur ist stadtbekannt. So wird auf dem Irchel nicht nur Spitzenforschung getätigt, sondern hier spielt sich auch ein grosser Teil des studentischen Lebens ab.</p>"
+      }
+    },
+    "ram-local-2-text": {
+      "data": {
+        "value": "<h1>Dinosaurier im Stadtzentrum</h1><p>Das Zoologische Museum und das Paläontologische Institut und Museum sind im UZH-Standort Zentrum untergebracht, mitten in der Stadt Zürich. Die umfangreiche Sammlung hat den Auftrag naturwissenschaftliche Objekte fachgerecht zu konservieren und spielt für die Wissenschaft eine wichtige Rolle. Auch in der Öffentlichkeit ist das Museum sehr beliebt und zählt mit jährlich rund 140'000 Besuchenden zu den bestbesuchten Museen der Stadt Zürich.</p>"
+      }
+    },
+    "ram-local-3-text": {
+      "data": {
+        "value": "<h1>Garten mit Zukunft</h1><p>Futuristische Kuppeln mitten im Zürcher Seefeld? Das sind die Tropenhäuser des Botanischen Gartens der MNF. Der neue Botanische Garten wurde 1977 im ehemaligen Park der Villa Schönau eröffnet und ist heute sowohl ein Labor für die Wissenschaft als auch Heimat von zahlreichen bedrohten und seltenen Pflanzenarten. Hier befinden sich das Institut für Systematische und Evolutionäre Botanik sowie das Institut für Pflanzen- und Mikrobiologie und die umfangreiche Bibliothek im Botanischen Garten. </p>"
+      }
+    },
+    "ram-local-4-text": {
+      "data": {
+        "value": "<h1>Gewässerforschung an der MNF</h1><p>Schon seit dem ausgehenden 18. Jahrhundert wird der Zürichsee wissenschaftlich erforscht. 1977 wurde dann die Limnologische Station in Kilchberg gegründet, die zum Institut für Pflanzen- und Mikrobiologie gehört. In Kilchberg werden der See und seine Lebewesen untersucht. Die Limnologie befasst sich mit Binnengewässern als Ökosysteme. Dazu gehören neben der Erforschung von winzigen Bakterien auch grosse Bereiche wie Trinkwasserqualität oder der Einfluss des Klimawandels auf Gewässer.</p>"
+      }
+    },
+    "ToMenu-ram-local-de": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'ram-local-de'})"
+        }
+      ]
+    },
+    "ToMenu-ram-world-de": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'ram-world-de'})"
+        }
+      ]
+    },
+    "ram-world-1-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'ram-world-1-de'})"
+        }
+      ]
+    },
+    "ram-world-2-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'ram-world-2-de'})"
+        }
+      ]
+    },
+    "ram-world-3-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'ram-world-3-de'})"
+        }
+      ]
+    },
+    "ram-world-4-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'ram-world-4-de'})"
+        }
+      ]
+    },
+    "ram-world-5-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'ram-world-5-de'})"
+        }
+      ]
+    },
+    "ram-world-1-text": {
+      "data": {
+        "value": "<h1>Biodiversitätsforschung in Sibirien</h1><p>In der sibirischen Tundra erforschen Prof. Gabriela Schaepman-Strub und ihre Gruppe Vegetationsveränderungen im Zuge des Klimawandels. Wie verändert sich die Artenzusammensetzung, wenn sich die Arktis erwärmt? Taut der Permafrost noch stärker auf, wenn der Niederschlag mit dem Klimawandel zunimmt? Ziel dieser Forschung ist es, zur Lösung von wichtigen ökologischen und klimatologischen Fragen beizutragen.</p>"
+      }
+    },
+    "ram-world-2-text": {
+      "data": {
+        "value": "<h1>Physik am CERN in Genf</h1><p>Er ist weltbekannt: Der Teilchenbeschleuniger des CERN. Dieser Large Hadron Collider (LHC) ist aber nicht der einzige Teilchendetektor. Forschungsgruppen der MNF sind an verschiedensten grossen Experimenten am CERN beteiligt: Am CMS-Detektor (Compact Muon Solenoid) forschen Prof. Florencia Canelli, Dr. Lea Caminada und Prof. Ben Kilminster. Und Prof. Nicola Serra und Prof. Olaf Steinkamp arbeiten am LHCb-Detektor (Large Hadron Collider beauty). Diesen Experimenten ist gemeinsam, dass sie nichts weniger versuchen, als den Ursprung der Welt und die Zukunft der Physik zu ergründen. </p>"
+      }
+    },
+    "ram-world-3-text": {
+      "data": {
+        "value": "<h1>Menschenaffen im Regenwald</h1><p>In den guineischen Nimba-Bergen und im zentralafrikanischen Kongobeckenwald leben Menschenaffen. Dazu gehören Schimpansen, Bonobos, Gorillas und Menschen. Die Forschungsgruppen um Prof. Kathelijne Koops vom Anthropologischen Institut der MNF untersucht das Verhalten und die Ökologie wildlebender Menschenaffen. Damit versuchen sie, die evolutionären Ursprünge ihres – und unseres – Verhaltens zu ergründen. Die Forschungsergebnisse fliessen in angewandte Erhaltungsstrategien zum Schutz der Menschenaffen und ihres Lebensraums ein.</p>"
+      }
+    },
+    "ram-world-4-text": {
+      "data": {
+        "value": "<h1>Feldforschung in der Kalahari</h1><p>Seit über 25 Jahren werden im südafrikanischen Kalahari Research Center Erdmännchen und andere Arten in ihrem natürlichen Habitat untersucht. Prof. Marta Manser von der MNF ist seit den Anfängen an den Langzeitstudien beteiligt. Seit 2017 leitet sie das Research Center. Ihr Forschungsschwerpunkt liegt auf der Erforschung des Verhaltens und der Kommunikation der Erdmännchen. Über 400 Forschende waren schon an den grossangelegten Projekten beteiligt. Mehr als 10 internationale Forschungsteams aus den Bereichen Tierverhalten, Ökologie, Physiologie oder Genetik haben in den letzten beiden Jahren über 50 Publikationen veröffentlicht. </p>"
+      }
+    },
+    "ram-world-5-text": {
+      "data": {
+        "value": "<h1>Delfine in der australischen Shark Bay</h1><p>Die riesige Meeresbucht vor Westaustralien, Teil des UNESCO Welterbes, ist unter anderem der Lebensraum von Delphinen. Sie werden dort seit 1982 beobachtet und erforscht – im Rahmen des am längsten dauernden Delfin-Projekts der Welt. Prof. Michael Krützen von der MNF leitet die Forschung gemeinsam mit Kollegen aus den USA und Grossbritannien. Krützen und zahlreiche weitere Forschende der MNF verfolgen das Ziel, die Ähnlichkeiten und Unterschiede dieser einzigartigen Meeressäuger zum Menschen zu erkunden und dadurch auch die Evolution unserer eigenen Art besser zu verstehen.</p>"
+      }
+    },
+    "ram-world-5-media": {
+      "data": {
+        "value": "./static/dynamic/3-Shark-Bay-Research-Station/_Bild-für-in-SliderText/Shark-Bay-Research-Station-E-Bild-in-Text.png"
+      }
+    },
+    "more-at-mnf-background-de": {
+      "data": {
+        "value": "./static/resources/Menu_RZZW_3_DE.png"
+      }
+    },
+    "more-at-mnf-background-en": {
+      "data": {
+        "value": "./static/resources/Menu_RZZW_3_DE.png"
+      }
+    },
+    "more-at-mnf-titel-de": {
+      "data": {
+        "value": "UNSERE FAKULTÄT ENTDECKEN",
+        "footer": "Tippe auf die Icons, um mehr zu erfahren"
+      }
+    },
+    "more-at-mnf-titel-en": {
+      "data": {
+        "value": "Meet our faculty",
+        "footer": "Tap on the icons to learn more"
+      }
+    },
+    "mam-nature-titel-de": {
+      "data": {
+        "value": "NATURE UND WISSEN ERLEBEN - MITTEN IN ZÜRICH",
+        "footer": "Tippe auf die Bilder, um mehr zu erfahren"
+      }
+    },
+    "mam-nature-titel-en": {
+      "data": {
+        "value": "NATURE UND WISSEN ERLEBEN - MITTEN IN ZÜRICH",
+        "footer": "Tippe auf die Bilder, um mehr zu erfahren"
+      }
+    },
+    "mam-nature-1-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'mam-nature-1-de'})"
+        }
+      ]
+    },
+    "mam-nature-2-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'mam-nature-2-de'})"
+        }
+      ]
+    },
+    "mam-nature-3-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'mam-nature-3-de'})"
+        }
+      ]
+    },
+    "mam-nature-4-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'mam-nature-4-de'})"
+        }
+      ]
+    },
+    "mam-nature-5-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'mam-nature-5-de'})"
+        }
+      ]
+    },
+    "mam-nature-6-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'mam-nature-6-de'})"
+        }
+      ]
+    },
+    "mam-nature-7-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'mam-nature-7-de'})"
+        }
+      ]
+    },
+    "mam-nature-8-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'mam-nature-8-de'})"
+        }
+      ]
+    },
+    "mam-nature-9-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'mam-nature-9-de'})"
+        }
+      ]
+    },
+    "mam-nature-10-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'mam-nature-10-de'})"
+        }
+      ]
+    },
+    "more-at-mnf-1-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'mam-nature-de'})"
+        }
+      ]
+    },
+    "more-at-mnf-2-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'mam-interviews-de'})"
+        }
+      ]
+    },
+    "more-at-mnf-3-click": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'mam-news-de'})"
+        }
+      ]
+    },
+    "mam-nature-background-de": {
+      "data": {
+        "value": "./static/resources/NaturWissen_RZZW_DE.png"
+      }
+    },
+    "mam-nature-background-en": {
+      "data": {
+        "value": "./static/resources/NaturWissen_RZZW_EN.png"
+      }
+    },
+    "mam-nature-1-text": {
+      "data": {
+        "value": "<h1>Woher wir kommen, wohin wir gehen</h1><p>Auf dem Irchel lernen wir unsere Geschichte kennen: Das Museum der Anthropologie zeigt in der Dauerausstellung «Spuren unserer Ahnen», wie Forscher_innen mit wissenschaftlichen Methoden Antworten auf die Fragen nach der Herkunft und Entwicklung des Menschen finden. Die biologische und kulturelle Evolution unserer Art wird mittels Fossil- und Werkzeugfunden nachgezeichnet. Das Museum ist täglich geöffnet und bietet auch Führungen zu verschiedenen Themen an.</p>"
+      }
+    },
+    "mam-nature-2-text": {
+      "data": {
+        "value": "<h1>Kräutergarten im Stadtzentrum</h1><p>Eingebettet in den Stadtkreis 1 befindet sich der Alte Botanische Garten, hoch über dem Schanzengraben. Er wurde 1837 angelegt und fasziniert mit seiner Sammlung an exotischen und alten Bäumen. Besonders schön ist das historische gusseiserne, achteckige Palmenhaus: Dieses wurde schon 1874 gebaut (nach einer hölzernen Version von 1851) und wird heute vorwiegend für die Überwinterung von nicht winterharten Kübelpflanzen sowie für Konzerte, Theater oder Ausstellungen genutzt. Am höchsten Punkt der Anlage befindet sich ein mittelalterlicher Kräutergarten zu Ehren des Zürcher Naturforschers und Stadtarztes Conrad Gessner (1516 – 1565).</p>"
+      }
+    },
+    "mam-nature-3-text": {
+      "data": {
+        "value": "<h1>Das Museum ohne Museum</h1><p>Das Botanische Museum der UZH gibt es seit 1895. Zu Beginn war es in den Institutsgebäuden am Alten Botanischen Garten untergebracht. Heute befindet es sich in Depoträumlichkeiten des Instituts für Pflanzen- und Mikrobiologie auf dem Gelände des neuen Botanischen Gartens – allerdings ohne eine permanente Ausstellung. Somit ist es ein Museum ohne Museum – obwohl neben Präparaten auch ein reicher Schatz von historisch wertvollem botanischem Unterrichts- und Anschauungsmaterial zur Sammlung gehört. Die wissenschaftlichen Nachlässe vieler bedeutender Zürcher Naturforschender und Forschungsreisender sind ausserdem Quellen für wissenschaftshistorische Forschungsprojekte. Die Sammlung ist jeweils am 2. und 4. Mittwoch im Monat geöffnet und auf Wunsch werden auch Führungen angeboten.</p>"
+      }
+    },
+    "mam-nature-4-text": {
+      "data": {
+        "value": "<h1>Pflanzen aus aller Welt</h1><p>Der Botanische Garten mit seinen drei charakteristischen, tropischen Kuppelhäusern liegt im Zürcher Seefeld. Der 1977 eröffnete Park steht täglich offen – und seine 7’000 verschiedenen Pflanzen werden jährlich von rund 130’000 Besucher_innen genossen. Die Anlage ist in verschiedene Lebensräume unterteilt: Zu bestaunen gibt es ein Alpinum ebenso wie neu gestaltete Nutz- und Heilpflanzenabteile, eine umfangreiche Wasserpflanzen- und Farnsammlung, oder erlesene Mixed Borders nach englischem Vorbild. Der Botanische Garten bietet regelmässig Veranstaltungen und Kurse für Kinder wie Erwachsene an.</p>"
+      }
+    },
+    "mam-nature-5-text": {
+      "data": {
+        "value": "<h1>Wissenschaft ist ansteckend</h1><p>Mitten auf dem Campus Irchel öffnen die UZH und die ETH seit 2006 ihre Tore. Das Live Science Zurich Learning Center will bei seinen Besucher_innen die Freude und Neugier an den Biowissenschaften wecken, indem es Einblick in aktuelle Forschungsthemen und den Kontakt zu Forschenden ermöglicht. Schulklassen aller Stufen, Lehrpersonen, aber auch andere Interessierte lassen sich hier von der Faszination der Life Sciences anstecken: Das Learning Center bietet Praktika im Hochschullabor sowie Weiterbildungen für Lehrpersonen der Biologie an.  Zudem stellt es Lehrmittel und Medien für Kinder und Jugendliche zur Verfügung.</p>"
+      }
+    },
+    "mam-nature-6-text": {
+      "data": {
+        "value": "<h1>Reise in die Vergangenheit</h1><p>Das Paläontologische Museum der Universität Zürich zeigt eine der weltweit bedeutendsten Sammlungen von Meeressauriern und -fischen aus der Mitteltrias, also der Zeit vor 230 bis 240 Millionen Jahren. 1965 wurde eine öffentliche Paläontologische Schausammlung eröffnet, seit 1991 zeigt sich das Paläontologische Museum nach einem umfassenden Umbau in seiner heutigen Form. Den Kern der Ausstellung bilden die wissenschaftlich sehr wertvollen Fossilien vom Monte San Giorgio (Südtessin). Diese besondere Fundstelle steht seit Juli 2003 auf der UNESCO-Liste der Weltkulturerbe. Der Eintritt ins Museum mitten in der Stadt Zürich ist kostenlos; es können ausserdem individuell auf eure Interessen zugeschnittene Führungen organisiert werden.</p>"
+      }
+    },
+    "mam-nature-7-text": {
+      "data": {
+        "value": "<h1>Begeisterung wecken</h1><p>Naturwissenschaften: Ist das nur etwas für Albert Einstein und Marie Curie? Oder auch für dich und mich? Das Science Lab UZH ist fest vom Zweiten überzeugt: Mit zahlreichen Aktivitäten an der Schnittstelle von Wissenschaft und Gesellschaft will das Lab Schwellen abbauen, Nähe schaffen und Neugier wecken. Projektwochen, Exkursionen oder Führungen für Schulen ermöglichen einen Zugang zu Naturwissenschaften, der Spass und Lust auf mehr macht. Das Science Lab beteiligt sich auch an der jährlich stattfindenden Zürcher Wissenschaftstagen «Scientifica».</p>"
+      }
+    },
+    "mam-nature-8-text": {
+      "data": {
+        "value": "<h1>Die MNF und ihre Menschen</h1><p>Grenzen verschieben, Wissen ausdehnen, Welt und Universum entschlüsseln: Was treibt unsere Forschenden an? Auf welche wissenschaftlichen Fragen suchen sie Antworten? Im Science Pavilion UZH auf dem Irchel stellen Forschende der Mathematisch-naturwissenschaftlichen Fakultät ihre aktuellen Projekte vor – und nicht zuletzt auch sich selbst. Die wechselnden Ausstellungen geben Einblick in aktuelle Forschung. Lehrreiche Videos, Interviews und Experimente machen die Naturwissenschaften mit allen Sinnen erlebbar. Und in den Porträts der Forschenden lernt ihr die Menschen hinter den akademischen Titeln kennen. </p>"
+      }
+    },
+    "mam-nature-9-text": {
+      "data": {
+        "value": "<h1>Eine Million Tiere</h1><p>Die Universität Zürich wurde 1833 gegründet – und mit ihr auch das Zoologische Museum. Seither tragen seine Ausstellungen zum Bewusstsein und zur Begeisterung für die Schönheit, die Vielfalt und den Wert der Natur bei. Die Sammlung des Museums umfasst heute nahezu eine Million Tiere von denen allerdings nur etwa 1'500 im Museum ausgestellt sind. Mit jährlich 140'000 Besucher_innen gehört das Zoologische Museum zu den bestbesuchten Museen der Stadt Zürich. Es ist von Dienstag bis Sonntag geöffnet und es werden auch Führungen, Familienworkshops und Spezialveranstaltungen angeboten.</p>"
+      }
+    },
+    "mam-nature-10-text": {
+      "data": {
+        "value": "<h1>Das zweitgrösste Herbarium der Schweiz</h1><p>3.8 Millionen Pflanzen: Die Vereinigten Herbarien der Universität und ETH Zürich dokumentieren Gefässpflanzen, Moose, Algen und Pilze aus allen Gegenden der Erde und werden seit 1990 von beiden Hochschulen gemeinsam geführt. Die Sammlung zählt zu den 15 grössten Herbarien weltweit; in Europa steht sie an elfter und in der Schweiz an zweiter Stelle. Grosse Beachtung finden die Vereinigten Herbarien wegen ihren umfassenden Sammlungen einheimischer Gefässpflanzen und Moose, welche die Verbreitung dieser Pflanzengruppe in der Schweiz eindrücklich dokumentieren. Sowohl das Inventar der Arten wie auch gegen 20 Prozent der Belege sind online einsehbar und laden dazu ein, die fantastische Pflanzenvielfalt virtuell zu bestaunen. </p>"
+      }
+    },
+    "content-interviews-de": {
+      "data": {
+        "value": ""
+      }
+    },
+    "interview-titel": {
+      "data": {
+        "value": "WISSEN AUS ERSTER HAND: INTERVIEWS MIT MITGLIEDERN DER FAKULTÄT",
+        "footer": "Tippe auf die Fotos, um mehr zu erfahren"
+      }
+    },
+    "ToMenu-interview": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'mam-interviews-de'})"
+        }
+      ]
+    },
+    "interview-overlay-text": {
+      "data": {
+        "value": "<h1>Educational green oasis </h1><p>What animals live in Irchel Park? What kind of research is being pursued on campus? These questions are explored on the Irchel Nature Trail. Bees, birds, mammals: Anyone perusing the 20 interpretation panels finds themselves not only soaking up the sun and fresh air, but also learning something in the process. Inaugurated in 2019, the trail was initiated by two doctoral students. The project was realized in cooperation with the Faculty of Science’s Sustainability Committee, the Swiss National Science Foundation’s Agora project “Biodiversity means Life”, the UZH Science Lab and the UZH’s Research Priority Program “Global Change and Biodiversity”.</p>"
+      }
+    },
+    "interview-overlay-qr-code-1": {
+      "data": {
+        "value": "",
+        "size": ""
+      }
+    },
+    "interview-overlay-qr-code-2": {
+      "data": {
+        "value": "",
+        "size": ""
+      }
+    },
+    "interview-overlay-qr-code-text-1": {
+      "data": {
+        "value": ""
+      }
+    },
+    "interview-overlay-qr-code-text-2": {
+      "data": {
+        "value": ""
+      }
+    },
+    "interview-overlay-title": {
+      "data": {
+        "value": "",
+        "footer": ""
+      }
+    },
+    "study-at-mnf-background-de": {
+      "data": {
+        "value": "./static/resources/Studienprogramme_Uebersicht_RZZW_DE_1.png"
+      }
+    },
+    "study-at-mnf-background-en": {
+      "data": {
+        "value": "./static/resources/Studienprogramme_Uebersicht_RZZW_DE_1.png"
+      }
+    },
+    "study-at-mnf-background-2-de": {
+      "data": {
+        "value": "./static/resources/Studienprogramme_Uebersicht_RZZW_DE_2.png"
+      }
+    },
+    "study-at-mnf-background-2-en": {
+      "data": {
+        "value": "./static/resources/Studienprogramme_Uebersicht_RZZW_DE_2.png"
+      }
+    },
+    "study-at-mnf-titel-de": {
+      "data": {
+        "value": "KLUGE WAHL: EIN STUDIUM AN DER MNF",
+        "footer": "Tippe auf ein Studiumprogramm, um mehr darüber zu erfahren"
+      }
+    },
+    "study-at-mnf-titel-en": {
+      "data": {
+        "value": "KLUGE WAHL: EIN STUDIUM AN DER MNF",
+        "footer": "Tippe auf ein Studienprogramm, um mehr darüber zu erfahren"
+      }
+    },
+    "sam-major-titel-de": {
+      "data": {
+        "value": "KLUGE WAHL: EIN STUDIUM AN DER MNF",
+        "footer": "Tippe auf die Pfeile am Rander,um in der Brochure zu blättern"
+      }
+    },
+    "sam-minor-titel-de": {
+      "data": {
+        "value": "KLUGE WAHL: EIN STUDIUM AN DER MNF"
+      }
+    },
+    "sam-button-back-de": {
+      "data": {
+        "value": "./static/studienprogramme/major/MonoMajor_Zurueck_Pfeil_DE.png"
+      }
+    },
+    "sam-button-next-de": {
+      "data": {
+        "value": "./static/studienprogramme/major/MonoMajor_Vorwaerts_Pfeil_DE.png"
+      }
+    },
+    "sam-button-master-back-de": {
+      "data": {
+        "value": "./static/studienprogramme/specializedMaster/SpecMaster_Zurueck_Pfeil_DE.png"
+      }
+    },
+    "sam-button-master-next-de": {
+      "data": {
+        "value": "./static/studienprogramme/specializedMaster/SpecMaster_Vorwaerts_Pfeil_DE.png"
+      }
+    },
+    "sam-button-joint-back-de": {
+      "data": {
+        "value": "./static/studienprogramme/jointDegree/JointDegree_Zurueck_Pfeil_DE.png"
+      }
+    },
+    "sam-button-joint-next-de": {
+      "data": {
+        "value": "./static/studienprogramme/jointDegree/JointDegree_Vorwaerts_Pfeil_DE.png"
+      }
+    },
+    "sam-button-back-and-next-de": {
+      "data": {
+        "value": "./static/studienprogramme/major/MonoMajor_ZurueckVorwaerts_Pfeile_DE.png"
+      }
+    },
+    "sam-button-major-de": {
+      "data": {
+        "value": "./static/studienprogramme/major/Studiengaenge_boxen_MONO_MAJOR.png"
+      }
+    },
+    "sam-button-master-de": {
+      "data": {
+        "value": "./static/studienprogramme/specializedMaster/Studiengaenge_boxen_SPECMASTER.png"
+      }
+    },
+    "sam-button-joint-de": {
+      "data": {
+        "value": "./static/studienprogramme/jointDegree/Studiengaenge_boxen_JOINTDEGREE.png"
+      }
+    },
+    "sam-button-minor-de": {
+      "data": {
+        "value": "./static/studienprogramme/minor/Studiengaenge_boxen_MINOR.png"
+      }
+    },
+    "study-at-mnf-click-1-1": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-1-1-de'})"
+        }
+      ]
+    },
+    "sam-major-page-1-1": {
+      "data": {
+        "value": "./static/studienprogramme/major/programme/Biochemie_1.jpg"
+      }
+    },
+    "sam-major-page-2-1": {
+      "data": {
+        "value": "./static/studienprogramme/major/programme/Biochemie_2.jpg"
+      }
+    },
+    "sam-major-page-3-1": {
+      "data": {
+        "value": "./static/studienprogramme/major/programme/Biochemie_3.jpg"
+      }
+    },
+    "sam-major-next-1-1": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-1-2-de'})"
+        }
+      ]
+    },
+    "sam-major-back-2-1": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-1-1-de'})"
+        }
+      ]
+    },
+    "sam-major-next-2-1": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-1-3-de'})"
+        }
+      ]
+    },
+    "sam-major-back-3-1": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-1-2-de'})"
+        }
+      ]
+    },
+    "study-at-mnf-click-1-2": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-2-1-de'})"
+        }
+      ]
+    },
+    "sam-major-page-1-2": {
+      "data": {
+        "value": "./static/studienprogramme/major/programme/Biologie_1.jpg"
+      }
+    },
+    "sam-major-page-2-2": {
+      "data": {
+        "value": "./static/studienprogramme/major/programme/Biologie_2.jpg"
+      }
+    },
+    "sam-major-page-3-2": {
+      "data": {
+        "value": "./static/studienprogramme/major/programme/Biologie_3.jpg"
+      }
+    },
+    "sam-major-next-1-2": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-2-2-de'})"
+        }
+      ]
+    },
+    "sam-major-back-2-2": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-2-1-de'})"
+        }
+      ]
+    },
+    "sam-major-next-2-2": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-2-3-de'})"
+        }
+      ]
+    },
+    "sam-major-back-3-2": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-2-2-de'})"
+        }
+      ]
+    },
+    "study-at-mnf-click-1-3": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-3-1-de'})"
+        }
+      ]
+    },
+    "sam-major-page-1-3": {
+      "data": {
+        "value": "./static/studienprogramme/major/programme/Biomedizin_1.jpg"
+      }
+    },
+    "sam-major-page-2-3": {
+      "data": {
+        "value": "./static/studienprogramme/major/programme/Biomedizin_2.jpg"
+      }
+    },
+    "sam-major-page-3-3": {
+      "data": {
+        "value": "./static/studienprogramme/major/programme/Biomedizin_3.jpg"
+      }
+    },
+    "sam-major-next-1-3": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-3-2-de'})"
+        }
+      ]
+    },
+    "sam-major-back-2-3": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-3-1-de'})"
+        }
+      ]
+    },
+    "sam-major-next-2-3": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-3-3-de'})"
+        }
+      ]
+    },
+    "sam-major-back-3-3": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-3-2-de'})"
+        }
+      ]
+    },
+    "study-at-mnf-click-1-4": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-4-1-de'})"
+        }
+      ]
+    },
+    "sam-major-page-1-4": {
+      "data": {
+        "value": "./static/studienprogramme/major/programme/Chemie_1.jpg"
+      }
+    },
+    "sam-major-page-2-4": {
+      "data": {
+        "value": "./static/studienprogramme/major/programme/Chemie_2.jpg"
+      }
+    },
+    "sam-major-page-3-4": {
+      "data": {
+        "value": "./static/studienprogramme/major/programme/Chemie_3.jpg"
+      }
+    },
+    "sam-major-next-1-4": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-4-2-de'})"
+        }
+      ]
+    },
+    "sam-major-back-2-4": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-4-1-de'})"
+        }
+      ]
+    },
+    "sam-major-next-2-4": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-4-3-de'})"
+        }
+      ]
+    },
+    "sam-major-back-3-4": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-4-2-de'})"
+        }
+      ]
+    },
+    "study-at-mnf-click-1-5": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-5-1-de'})"
+        }
+      ]
+    },
+    "sam-major-page-1-5": {
+      "data": {
+        "value": "./static/studienprogramme/major/programme/EWS_1.jpg"
+      }
+    },
+    "sam-major-page-2-5": {
+      "data": {
+        "value": "./static/studienprogramme/major/programme/EWS_2.jpg"
+      }
+    },
+    "sam-major-page-3-5": {
+      "data": {
+        "value": "./static/studienprogramme/major/programme/EWS_3.jpg"
+      }
+    },
+    "sam-major-next-1-5": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-5-2-de'})"
+        }
+      ]
+    },
+    "sam-major-back-2-5": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-5-1-de'})"
+        }
+      ]
+    },
+    "sam-major-next-2-5": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-5-3-de'})"
+        }
+      ]
+    },
+    "sam-major-back-3-5": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-5-2-de'})"
+        }
+      ]
+    },
+    "study-at-mnf-click-1-6": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-6-1-de'})"
+        }
+      ]
+    },
+    "sam-major-page-1-6": {
+      "data": {
+        "value": "./static/studienprogramme/major/programme/Geographie_1.jpg"
+      }
+    },
+    "sam-major-page-2-6": {
+      "data": {
+        "value": "./static/studienprogramme/major/programme/Geographie_2.jpg"
+      }
+    },
+    "sam-major-page-3-6": {
+      "data": {
+        "value": "./static/studienprogramme/major/programme/Geographie_3.jpg"
+      }
+    },
+    "sam-major-next-1-6": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-6-2-de'})"
+        }
+      ]
+    },
+    "sam-major-back-2-6": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-6-1-de'})"
+        }
+      ]
+    },
+    "sam-major-next-2-6": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-6-3-de'})"
+        }
+      ]
+    },
+    "sam-major-back-3-6": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-6-2-de'})"
+        }
+      ]
+    },
+    "study-at-mnf-click-1-7": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-7-1-de'})"
+        }
+      ]
+    },
+    "sam-major-page-1-7": {
+      "data": {
+        "value": "./static/studienprogramme/major/programme/Mathematik_1.jpg"
+      }
+    },
+    "sam-major-page-2-7": {
+      "data": {
+        "value": "./static/studienprogramme/major/programme/Mathematik_2.jpg"
+      }
+    },
+    "sam-major-page-3-7": {
+      "data": {
+        "value": "./static/studienprogramme/major/programme/Mathematik_3.jpg"
+      }
+    },
+    "sam-major-next-1-7": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-7-2-de'})"
+        }
+      ]
+    },
+    "sam-major-back-2-7": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-7-1-de'})"
+        }
+      ]
+    },
+    "sam-major-next-2-7": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-7-3-de'})"
+        }
+      ]
+    },
+    "sam-major-back-3-7": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-7-2-de'})"
+        }
+      ]
+    },
+    "study-at-mnf-click-1-8": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-8-1-de'})"
+        }
+      ]
+    },
+    "sam-major-page-1-8": {
+      "data": {
+        "value": "./static/studienprogramme/major/programme/Physik_1.jpg"
+      }
+    },
+    "sam-major-page-2-8": {
+      "data": {
+        "value": "./static/studienprogramme/major/programme/Physik_2.jpg"
+      }
+    },
+    "sam-major-page-3-8": {
+      "data": {
+        "value": "./static/studienprogramme/major/programme/Physik_3.jpg"
+      }
+    },
+    "sam-major-next-1-8": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-8-2-de'})"
+        }
+      ]
+    },
+    "sam-major-back-2-8": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-8-1-de'})"
+        }
+      ]
+    },
+    "sam-major-next-2-8": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-8-3-de'})"
+        }
+      ]
+    },
+    "sam-major-back-3-8": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-8-2-de'})"
+        }
+      ]
+    },
+    "study-at-mnf-click-1-9": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-9-1-de'})"
+        }
+      ]
+    },
+    "sam-major-page-1-9": {
+      "data": {
+        "value": "./static/studienprogramme/major/programme/Wirtschaftschemie_1.jpg"
+      }
+    },
+    "sam-major-page-2-9": {
+      "data": {
+        "value": "./static/studienprogramme/major/programme/Wirtschaftschemie_2.jpg"
+      }
+    },
+    "sam-major-page-3-9": {
+      "data": {
+        "value": "./static/studienprogramme/major/programme/Wirtschaftschemie_3.jpg"
+      }
+    },
+    "sam-major-next-1-9": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-9-2-de'})"
+        }
+      ]
+    },
+    "sam-major-back-2-9": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-9-1-de'})"
+        }
+      ]
+    },
+    "sam-major-next-2-9": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-9-3-de'})"
+        }
+      ]
+    },
+    "sam-major-back-3-9": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-major-9-2-de'})"
+        }
+      ]
+    },
+    "study-at-mnf-click-2-1": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-minor-1-de'})"
+        }
+      ]
+    },
+    "sam-minor-page-1": {
+      "data": {
+        "value": "./static/studienprogramme/minor/programme/Minor_Biologie.jpg"
+      }
+    },
+    "study-at-mnf-click-2-2": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-minor-2-de'})"
+        }
+      ]
+    },
+    "sam-minor-page-2": {
+      "data": {
+        "value": "./static/studienprogramme/minor/programme/Minor_Biologie.jpg"
+      }
+    },
+    "study-at-mnf-click-2-3": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-minor-3-de'})"
+        }
+      ]
+    },
+    "sam-minor-page-3": {
+      "data": {
+        "value": "./static/studienprogramme/minor/programme/Minor_Biomedizin.jpg"
+      }
+    },
+    "study-at-mnf-click-2-4": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-minor-4-de'})"
+        }
+      ]
+    },
+    "sam-minor-page-4": {
+      "data": {
+        "value": "./static/studienprogramme/minor/programme/Minor_Chemie.jpg"
+      }
+    },
+    "study-at-mnf-click-2-5": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-minor-5-de'})"
+        }
+      ]
+    },
+    "sam-minor-page-5": {
+      "data": {
+        "value": "./static/studienprogramme/minor/programme/Minor_EWS.jpg"
+      }
+    },
+    "study-at-mnf-click-2-6": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-minor-6-de'})"
+        }
+      ]
+    },
+    "sam-minor-page-6": {
+      "data": {
+        "value": "./static/studienprogramme/minor/programme/Minor_Geographie.jpg"
+      }
+    },
+    "study-at-mnf-click-2-7": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-minor-7-de'})"
+        }
+      ]
+    },
+    "sam-minor-page-7": {
+      "data": {
+        "value": "./static/studienprogramme/minor/programme/Minor_Mathematik.jpg"
+      }
+    },
+    "study-at-mnf-click-2-8": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-minor-8-de'})"
+        }
+      ]
+    },
+    "sam-minor-page-8": {
+      "data": {
+        "value": "./static/studienprogramme/minor/programme/Minor_Physik.jpg"
+      }
+    },
+    "study-at-mnf-click-2-9": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-minor-9-de'})"
+        }
+      ]
+    },
+    "sam-minor-page-9": {
+      "data": {
+        "value": "./static/studienprogramme/minor/programme/Minor_AWS.jpg"
+      }
+    },
+    "study-at-mnf-click-2-10": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-minor-10-de'})"
+        }
+      ]
+    },
+    "sam-minor-page-10": {
+      "data": {
+        "value": "./static/studienprogramme/minor/programme/Minor_Astronomie.jpg"
+      }
+    },
+    "study-at-mnf-click-3-1": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-minor-11-de'})"
+        }
+      ]
+    },
+    "sam-minor-page-11": {
+      "data": {
+        "value": "./static/studienprogramme/minor/programme/Minor_Astrophysik.jpg"
+      }
+    },
+    "study-at-mnf-click-3-2": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-minor-12-de'})"
+        }
+      ]
+    },
+    "sam-minor-page-12": {
+      "data": {
+        "value": "./static/studienprogramme/minor/programme/Minor_Bioinformatik.jpg"
+      }
+    },
+    "study-at-mnf-click-3-3": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-minor-13-de'})"
+        }
+      ]
+    },
+    "sam-minor-page-13": {
+      "data": {
+        "value": "./static/studienprogramme/minor/programme/Minor_BiomedEntre.jpg"
+      }
+    },
+    "study-at-mnf-click-3-4": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-minor-14-de'})"
+        }
+      ]
+    },
+    "sam-minor-page-14": {
+      "data": {
+        "value": "./static/studienprogramme/minor/programme/Minor_ComputationalSc.jpg"
+      }
+    },
+    "study-at-mnf-click-3-5": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-minor-15-de'})"
+        }
+      ]
+    },
+    "sam-minor-page-15": {
+      "data": {
+        "value": "./static/studienprogramme/minor/programme/Minor_Datenanalyse.jpg"
+      }
+    },
+    "study-at-mnf-click-3-6": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-minor-16-de'})"
+        }
+      ]
+    },
+    "sam-minor-page-16": {
+      "data": {
+        "value": "./static/studienprogramme/minor/programme/Minor_Informatik.jpg"
+      }
+    },
+    "study-at-mnf-click-3-7": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-minor-17-de'})"
+        }
+      ]
+    },
+    "sam-minor-page-17": {
+      "data": {
+        "value": "./static/studienprogramme/minor/programme/Minor_Kristallographie.jpg"
+      }
+    },
+    "study-at-mnf-click-3-8": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-minor-18-de'})"
+        }
+      ]
+    },
+    "sam-minor-page-18": {
+      "data": {
+        "value": "./static/studienprogramme/minor/programme/Minor_Neuroinformatik.jpg"
+      }
+    },
+    "study-at-mnf-click-3-9": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-minor-19-de'})"
+        }
+      ]
+    },
+    "sam-minor-page-19": {
+      "data": {
+        "value": "./static/studienprogramme/minor/programme/Minor_SimulationenNw.jpg"
+      }
+    },
+    "study-at-mnf-click-3-10": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-minor-20-de'})"
+        }
+      ]
+    },
+    "sam-minor-page-20": {
+      "data": {
+        "value": "./static/studienprogramme/minor/programme/Minor_Umweltwissensch.jpg"
+      }
+    },
+    "study-at-mnf-click-4-1": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-master-1-1-de'})"
+        }
+      ]
+    },
+    "sam-master-page-1-1": {
+      "data": {
+        "value": "./static/studienprogramme/specializedMaster/programme/Biostatistics-1.jpg"
+      }
+    },
+    "sam-master-page-2-1": {
+      "data": {
+        "value": "./static/studienprogramme/specializedMaster/programme/Biostatistics-2.jpg"
+      }
+    },
+    "sam-master-next-1-1": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-master-1-2-de'})"
+        }
+      ]
+    },
+    "sam-master-back-1-1": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-master-1-1-de'})"
+        }
+      ]
+    },
+    "study-at-mnf-click-4-2": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-master-2-1-de'})"
+        }
+      ]
+    },
+    "sam-master-page-1-2": {
+      "data": {
+        "value": "./static/studienprogramme/specializedMaster/programme/ChemicalMolecularSc-1.jpg"
+      }
+    },
+    "sam-master-page-2-2": {
+      "data": {
+        "value": "./static/studienprogramme/specializedMaster/programme/ChemicalMolecularSc-2.jpg"
+      }
+    },
+    "sam-master-next-2-1": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-master-2-2-de'})"
+        }
+      ]
+    },
+    "sam-master-back-2-1": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-master-2-1-de'})"
+        }
+      ]
+    },
+    "study-at-mnf-click-4-3": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-master-3-1-de'})"
+        }
+      ]
+    },
+    "sam-master-page-1-3": {
+      "data": {
+        "value": "./static/studienprogramme/specializedMaster/programme/ComputationalSc-1.jpg"
+      }
+    },
+    "sam-master-page-2-3": {
+      "data": {
+        "value": "./static/studienprogramme/specializedMaster/programme/ComputationalSc-2.jpg"
+      }
+    },
+    "sam-master-next-3-1": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-master-3-2-de'})"
+        }
+      ]
+    },
+    "sam-master-back-3-1": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-master-3-1-de'})"
+        }
+      ]
+    },
+    "study-at-mnf-click-4-4": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-master-4-1-de'})"
+        }
+      ]
+    },
+    "sam-master-page-1-4": {
+      "data": {
+        "value": "./static/studienprogramme/specializedMaster/programme/QuantitativeEnvironSc-1.jpg"
+      }
+    },
+    "sam-master-page-2-4": {
+      "data": {
+        "value": "./static/studienprogramme/specializedMaster/programme/QuantitativeEnvironSc-2.jpg"
+      }
+    },
+    "sam-master-next-4-1": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-master-4-2-de'})"
+        }
+      ]
+    },
+    "sam-master-back-4-1": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-master-4-1-de'})"
+        }
+      ]
+    },
+    "study-at-mnf-click-5-1": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-joint-1-1-de'})"
+        }
+      ]
+    },
+    "sam-joint-page-1-1": {
+      "data": {
+        "value": "./static/studienprogramme/jointDegree/programme/JointDegree-1.jpg"
+      }
+    },
+    "sam-joint-page-2-1": {
+      "data": {
+        "value": "./static/studienprogramme/jointDegree/programme/JointDegree-2.jpg"
+      }
+    },
+    "sam-joint-next-1-1": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-joint-1-2-de'})"
+        }
+      ]
+    },
+    "sam-joint-back-1-1": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate','overlay':true,'destination': 'sam-joint-1-1-de'})"
+        }
+      ]
+    },
+    "study-at-mnf-click-next": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate',  'destination': 'study-at-mnf-2-de'})"
+        }
+      ]
+    },
+    "study-at-mnf-click-before": {
+      "data": {
+        "value": ""
+      },
+      "actionList": [
+        {
+          "action": "evaluate",
+          "contentId": "lang",
+          "script": "window.functions.navigateByLang({'action': 'navigate', 'destination': 'study-at-mnf-de'})"
+        }
+      ]
+    }
+  }
+}
