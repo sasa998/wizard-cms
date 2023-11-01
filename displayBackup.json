@@ -8662,12 +8662,11 @@
                     "classList": "click",
                     "style": {
                       "host": {
-                        "top": "10%",
+                        "top": "4.5%",
                         "width": "31%",
-                        "height": "10%"
+                        "height": "9%"
                       }
-                    },
-                    "attributes": {}
+                    }
                   },
                   {
                     "id": "study-at-mnf-click-1-2",
@@ -8675,9 +8674,9 @@
                     "classList": "click",
                     "style": {
                       "host": {
-                        "top": "20%",
+                        "top": "14.5%",
                         "width": "31%",
-                        "height": "10%"
+                        "height": "9%"
                       }
                     }
                   },
@@ -8687,9 +8686,9 @@
                     "classList": "click",
                     "style": {
                       "host": {
-                        "top": "30%",
+                        "top": "23.5%",
                         "width": "31%",
-                        "height": "10%"
+                        "height": "9%"
                       }
                     }
                   },
@@ -8699,9 +8698,9 @@
                     "classList": "click",
                     "style": {
                       "host": {
-                        "top": "40%",
+                        "top": "32.5%",
                         "width": "31%",
-                        "height": "10%"
+                        "height": "9%"
                       }
                     }
                   },
@@ -8711,9 +8710,9 @@
                     "classList": "click",
                     "style": {
                       "host": {
-                        "top": "50%",
+                        "top": "42.5%",
                         "width": "31%",
-                        "height": "10%"
+                        "height": "9%"
                       }
                     }
                   },
@@ -8723,9 +8722,9 @@
                     "classList": "click",
                     "style": {
                       "host": {
-                        "top": "60%",
+                        "top": "53.5%",
                         "width": "31%",
-                        "height": "10%"
+                        "height": "9%"
                       }
                     }
                   },
@@ -8735,9 +8734,9 @@
                     "classList": "click",
                     "style": {
                       "host": {
-                        "top": "70%",
+                        "top": "62.5%",
                         "width": "31%",
-                        "height": "10%"
+                        "height": "9%"
                       }
                     }
                   },
@@ -8747,9 +8746,9 @@
                     "classList": "click",
                     "style": {
                       "host": {
-                        "top": "80%",
+                        "top": "72.5%",
                         "width": "31%",
-                        "height": "10%"
+                        "height": "9%"
                       }
                     }
                   },
@@ -8759,9 +8758,21 @@
                     "classList": "click",
                     "style": {
                       "host": {
-                        "top": "90%",
+                        "top": "81.5%",
                         "width": "31%",
-                        "height": "10%"
+                        "height": "9%"
+                      }
+                    }
+                  },
+                  {
+                    "id": "study-at-mnf-click-1-10",
+                    "type": "static",
+                    "classList": "click",
+                    "style": {
+                      "host": {
+                        "top": "91.5%",
+                        "width": "31%",
+                        "height": "9%"
                       }
                     }
                   },
@@ -8772,7 +8783,7 @@
                     "style": {
                       "host": {
                         "left": "33%",
-                        "top": "10.5%",
+                        "top": "4.5%",
                         "width": "28%",
                         "height": "9%"
                       }
@@ -8785,7 +8796,7 @@
                     "style": {
                       "host": {
                         "left": "33%",
-                        "top": "19.5%",
+                        "top": "14.5%",
                         "width": "28%",
                         "height": "9%"
                       }
@@ -8798,7 +8809,7 @@
                     "style": {
                       "host": {
                         "left": "33%",
-                        "top": "28.5%",
+                        "top": "23.5%",
                         "width": "28%",
                         "height": "9%"
                       }
@@ -8811,7 +8822,7 @@
                     "style": {
                       "host": {
                         "left": "33%",
-                        "top": "37.5%",
+                        "top": "33.5%",
                         "width": "28%",
                         "height": "9%"
                       }
@@ -8824,7 +8835,7 @@
                     "style": {
                       "host": {
                         "left": "33%",
-                        "top": "46.5%",
+                        "top": "42.5%",
                         "width": "28%",
                         "height": "9%"
                       }
@@ -8837,7 +8848,7 @@
                     "style": {
                       "host": {
                         "left": "33%",
-                        "top": "55.5%",
+                        "top": "52.5%",
                         "width": "28%",
                         "height": "9%"
                       }
@@ -8850,7 +8861,7 @@
                     "style": {
                       "host": {
                         "left": "33%",
-                        "top": "64.5%",
+                        "top": "62.5%",
                         "width": "28%",
                         "height": "9%"
                       }
@@ -8863,7 +8874,7 @@
                     "style": {
                       "host": {
                         "left": "33%",
-                        "top": "73.5%",
+                        "top": "71.5%",
                         "width": "28%",
                         "height": "9%"
                       }
@@ -8876,20 +8887,7 @@
                     "style": {
                       "host": {
                         "left": "33%",
-                        "top": "82.5%",
-                        "width": "28%",
-                        "height": "9%"
-                      }
-                    }
-                  },
-                  {
-                    "id": "study-at-mnf-click-2-10",
-                    "type": "static",
-                    "classList": "click",
-                    "style": {
-                      "host": {
-                        "left": "33%",
-                        "top": "91.5%",
+                        "top": "81.5%",
                         "width": "28%",
                         "height": "9%"
                       }
@@ -8902,7 +8900,7 @@
                     "style": {
                       "host": {
                         "left": "61%",
-                        "top": "10.5%",
+                        "top": "4.5%",
                         "width": "28%",
                         "height": "9%"
                       }
@@ -8915,7 +8913,7 @@
                     "style": {
                       "host": {
                         "left": "61%",
-                        "top": "19.5%",
+                        "top": "14.5%",
                         "width": "28%",
                         "height": "9%"
                       }
@@ -8928,7 +8926,7 @@
                     "style": {
                       "host": {
                         "left": "61%",
-                        "top": "28.5%",
+                        "top": "24%",
                         "width": "28%",
                         "height": "9%"
                       }
@@ -8941,7 +8939,7 @@
                     "style": {
                       "host": {
                         "left": "61%",
-                        "top": "37.5%",
+                        "top": "33.5%",
                         "width": "28%",
                         "height": "9%"
                       }
@@ -8954,7 +8952,7 @@
                     "style": {
                       "host": {
                         "left": "61%",
-                        "top": "46.5%",
+                        "top": "43%",
                         "width": "28%",
                         "height": "9%"
                       }
@@ -8967,7 +8965,7 @@
                     "style": {
                       "host": {
                         "left": "61%",
-                        "top": "55.5%",
+                        "top": "52.5%",
                         "width": "28%",
                         "height": "9%"
                       }
@@ -8980,7 +8978,7 @@
                     "style": {
                       "host": {
                         "left": "61%",
-                        "top": "64.5%",
+                        "top": "62.5%",
                         "width": "28%",
                         "height": "9%"
                       }
@@ -8993,7 +8991,7 @@
                     "style": {
                       "host": {
                         "left": "61%",
-                        "top": "73.5%",
+                        "top": "72.5%",
                         "width": "28%",
                         "height": "9%"
                       }
@@ -9006,20 +9004,7 @@
                     "style": {
                       "host": {
                         "left": "61%",
-                        "top": "82.5%",
-                        "width": "28%",
-                        "height": "9%"
-                      }
-                    }
-                  },
-                  {
-                    "id": "study-at-mnf-click-3-10",
-                    "type": "static",
-                    "classList": "click",
-                    "style": {
-                      "host": {
-                        "left": "61%",
-                        "top": "91.5%",
+                        "top": "81.5%",
                         "width": "28%",
                         "height": "9%"
                       }
@@ -11962,6 +11947,251 @@
                   {
                     "type": "media",
                     "id": "sam-major-page-3-9",
+                    "classList": "major-page"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "sam-major-10-1-de",
+        "containerList": [
+          {
+            "id": "home-container",
+            "name": "home-container",
+            "type": "container",
+            "classList": "container-base waw-numbers sam-major-1",
+            "layout": {
+              "grid": {
+                "rows": 1,
+                "cols": 1
+              }
+            },
+            "itemList": [
+              {
+                "name": "content-ram-local-1-de",
+                "id": "content-ram-local-1-de",
+                "type": "media",
+                "classList": "fullcontent"
+              },
+              {
+                "name": "sam-button-next-de",
+                "id": "sam-button-next-de",
+                "type": "media",
+                "classList": "full next"
+              },
+              {
+                "name": "sam-button-major-de",
+                "id": "sam-button-major-de",
+                "type": "media",
+                "classList": "full"
+              },
+              {
+                "name": "sam-major-titel-de",
+                "id": "sam-major-titel-de",
+                "type": "static",
+                "classList": "menu-title"
+              },
+              {
+                "name": "ToMenu-sam-1",
+                "id": "ToMenu-sam-1",
+                "type": "media",
+                "classList": "idle-button toMenu menuIcon"
+              },
+              {
+                "id": "ToMenu-sam-1",
+                "type": "static",
+                "classList": "closeOverlay",
+                "style": {
+                  "host": {}
+                }
+              },
+              {
+                "id": "overlaySlider-container",
+                "type": "container",
+                "classList": "overlaySlider-container",
+                "layout": {
+                  "grid": {
+                    "rows": 1,
+                    "cols": 1
+                  }
+                },
+                "itemList": [
+                  {
+                    "type": "media",
+                    "id": "sam-major-next-10-1",
+                    "classList": "major-next"
+                  },
+                  {
+                    "type": "media",
+                    "id": "sam-major-page-10-1",
+                    "classList": "major-page"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "sam-major-10-2-de",
+        "containerList": [
+          {
+            "id": "home-container",
+            "name": "home-container",
+            "type": "container",
+            "classList": "container-base waw-numbers sam-major-2",
+            "layout": {
+              "grid": {
+                "rows": 1,
+                "cols": 1
+              }
+            },
+            "itemList": [
+              {
+                "name": "content-ram-local-1-de",
+                "id": "content-ram-local-1-de",
+                "type": "media",
+                "classList": "fullcontent"
+              },
+              {
+                "name": "sam-button-back-and-next-de",
+                "id": "sam-button-back-and-next-de",
+                "type": "media",
+                "classList": "full backnext"
+              },
+              {
+                "name": "sam-button-major-de",
+                "id": "sam-button-major-de",
+                "type": "media",
+                "classList": "full"
+              },
+              {
+                "name": "sam-major-titel-de",
+                "id": "sam-major-titel-de",
+                "type": "static",
+                "classList": "menu-title"
+              },
+              {
+                "name": "ToMenu-sam-1",
+                "id": "ToMenu-sam-1",
+                "type": "media",
+                "classList": "idle-button toMenu menuIcon"
+              },
+              {
+                "id": "ToMenu-sam-1",
+                "type": "static",
+                "classList": "closeOverlay",
+                "style": {
+                  "host": {}
+                }
+              },
+              {
+                "id": "overlaySlider-container",
+                "type": "container",
+                "classList": "overlaySlider-container",
+                "layout": {
+                  "grid": {
+                    "rows": 1,
+                    "cols": 1
+                  }
+                },
+                "itemList": [
+                  {
+                    "type": "media",
+                    "id": "sam-major-next-10-2",
+                    "classList": "major-next spreadpage"
+                  },
+                  {
+                    "type": "media",
+                    "id": "sam-major-back-10-2",
+                    "classList": "major-back spreadpage"
+                  },
+                  {
+                    "type": "media",
+                    "id": "sam-major-page-10-2",
+                    "classList": "major-page"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "sam-major-10-3-de",
+        "containerList": [
+          {
+            "id": "home-container",
+            "name": "home-container",
+            "type": "container",
+            "classList": "container-base waw-numbers sam-major-3",
+            "layout": {
+              "grid": {
+                "rows": 1,
+                "cols": 1
+              }
+            },
+            "itemList": [
+              {
+                "name": "content-ram-local-1-de",
+                "id": "content-ram-local-1-de",
+                "type": "media",
+                "classList": "fullcontent"
+              },
+              {
+                "name": "sam-button-back-de",
+                "id": "sam-button-back-de",
+                "type": "media",
+                "classList": "full back"
+              },
+              {
+                "name": "sam-button-major-de",
+                "id": "sam-button-major-de",
+                "type": "media",
+                "classList": "full"
+              },
+              {
+                "name": "sam-major-titel-de",
+                "id": "sam-major-titel-de",
+                "type": "static",
+                "classList": "menu-title"
+              },
+              {
+                "name": "ToMenu-sam-1",
+                "id": "ToMenu-sam-1",
+                "type": "media",
+                "classList": "idle-button toMenu menuIcon"
+              },
+              {
+                "id": "ToMenu-sam-1",
+                "type": "static",
+                "classList": "closeOverlay",
+                "style": {
+                  "host": {}
+                }
+              },
+              {
+                "id": "overlaySlider-container",
+                "type": "container",
+                "classList": "overlaySlider-container",
+                "layout": {
+                  "grid": {
+                    "rows": 1,
+                    "cols": 1
+                  }
+                },
+                "itemList": [
+                  {
+                    "type": "media",
+                    "id": "sam-major-back-10-3",
+                    "classList": "major-back"
+                  },
+                  {
+                    "type": "media",
+                    "id": "sam-major-page-10-3",
                     "classList": "major-page"
                   }
                 ]
